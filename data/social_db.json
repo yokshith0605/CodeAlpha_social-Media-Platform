@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "username": "elena_design",
+      "name": "Elena Rostova",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Principal Architect & Design Systems Lead. Obsessed with minimal spatial flow, brutalist web layouts, and quiet typography.",
+      "location": "Kyiv / Berlin",
+      "website": "https://elenarostova.design",
+      "role": "Design Systems Architect",
+      "joinedDate": "March 2024",
+      "followersCount": 3,
+      "followingCount": 2,
+      "postsCount": 2
+    },
+    {
+      "id": "user_2",
+      "username": "marcus_chen",
+      "name": "Marcus Chen",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Building resilient backend microservices & distributed tools. Specialty coffee nerd, custom keyboard builder, and open-source enthusiast.",
+      "location": "San Francisco, CA",
+      "website": "https://marcuschen.dev",
+      "role": "Staff Systems Engineer",
+      "joinedDate": "January 2024",
+      "followersCount": 3,
+      "followingCount": 3,
+      "postsCount": 1
+    },
+    {
+      "id": "user_3",
+      "username": "maya_captures",
+      "name": "Maya Lin",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Visual storyteller & documentary photographer. Chasing moody coastal fog, rain-soaked city dusk, and quiet human connections. Leica & medium format.",
+      "location": "Seattle, WA",
+      "website": "https://mayalinphoto.com",
+      "role": "Documentary Photographer",
+      "joinedDate": "April 2024",
+      "followersCount": 2,
+      "followingCount": 2,
+      "postsCount": 2
+    },
+    {
+      "id": "user_4",
+      "username": "kaito_tanaka",
+      "name": "Kaito Tanaka",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+      "bio": "Creative Technologist & audio experimenter. Writing clean, lightweight web applications. Believer in calm software and deep work.",
+      "location": "Tokyo, Japan",
+      "website": "https://kaito.studio",
+      "role": "Creative Technologist",
+      "joinedDate": "February 2024",
+      "followersCount": 1,
+      "followingCount": 2,
+      "postsCount": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1",
+      "authorId": "user_1",
+      "content": "Just finalized the conceptual drawings for the lake pavilion. Cast architectural concrete paired with Japanese charred cedar, surrounded by a still reflecting pool. What element brings you the deepest sense of calm in built spaces?",
+      "image": "/src/assets/images/minimal_architecture_post_1791625798233.jpg",
+      "tags": [
+        "architecture",
+        "minimalism",
+        "design"
+      ],
+      "createdAt": "2026-10-10T09:20:23.352Z",
+      "likesCount": 3,
+      "commentsCount": 3,
+      "repostsCount": 1,
+      "likedBy": [
+        "user_2",
+        "user_3",
+        "user_4"
+      ],
+      "bookmarkedBy": [
+        "user_2"
+      ]
+    },
+    {
+      "id": "post_2",
+      "authorId": "user_2",
+      "content": "Reset my morning workspace before kicking off the Express backend architecture. There is genuine joy in pairing a clean physical desk with a disciplined code structure. Ethiopian Yirgacheffe in the cup!",
+      "image": "/src/assets/images/design_workspace_post_1791625823670.jpg",
+      "tags": [
+        "workspace",
+        "developer",
+        "engineering"
+      ],
+      "createdAt": "2026-10-10T07:05:23.352Z",
+      "likesCount": 2,
+      "commentsCount": 2,
+      "repostsCount": 0,
+      "likedBy": [
+        "user_1",
+        "user_3"
+      ],
+      "bookmarkedBy": [
+        "user_1"
+      ]
+    },
+    {
+      "id": "post_3",
+      "authorId": "user_3",
+      "content": "Twilight street scene in Tokyo right after a spring cloudburst. The rain turns every asphalt alleyway into a dark mirror catching the lantern glow. Shot on 35mm film.",
+      "image": "/src/assets/images/urban_street_post_1791625812078.jpg",
+      "tags": [
+        "photography",
+        "tokyo",
+        "streetstyle"
+      ],
+      "createdAt": "2026-10-10T04:05:23.352Z",
+      "likesCount": 3,
+      "commentsCount": 2,
+      "repostsCount": 2,
+      "likedBy": [
+        "user_1",
+        "user_2",
+        "user_4"
+      ],
+      "bookmarkedBy": [
+        "user_1",
+        "user_2"
+      ]
+    },
+    {
+      "id": "post_4",
+      "authorId": "user_3",
+      "content": "The Pacific Northwest coast under heavy morning fog. Cold salt spray, dark basalt sea stacks, and centuries of silent Douglas firs standing guard. Nature at its most majestic.",
+      "image": "/src/assets/images/coastal_fog_post_1791625835737.jpg",
+      "tags": [
+        "photography",
+        "nature",
+        "pnw"
+      ],
+      "createdAt": "2026-10-09T14:05:23.352Z",
+      "likesCount": 2,
+      "commentsCount": 1,
+      "repostsCount": 1,
+      "likedBy": [
+        "user_1",
+        "user_4"
+      ],
+      "bookmarkedBy": []
+    },
+    {
+      "id": "post_5",
+      "authorId": "user_4",
+      "content": "Refactored our event loop and state management today. Deleting 850 lines of redundant boilerplate code while keeping all test suites green is easily the most rewarding feeling in software engineering.",
+      "tags": [
+        "software",
+        "cleancode",
+        "webdev"
+      ],
+      "createdAt": "2026-10-09T04:05:23.352Z",
+      "likesCount": 3,
+      "commentsCount": 1,
+      "repostsCount": 2,
+      "likedBy": [
+        "user_1",
+        "user_2",
+        "user_3"
+      ],
+      "bookmarkedBy": [
+        "user_3"
+      ]
+    },
+    {
+      "id": "post_6",
+      "authorId": "user_1",
+      "content": "A reminder for designers and engineers alike: complexity is easy, simplicity requires ruthless intentionality. Build for clarity, durability, and human ease.",
+      "tags": [
+        "design",
+        "philosophy"
+      ],
+      "createdAt": "2026-10-08T10:05:23.352Z",
+      "likesCount": 2,
+      "commentsCount": 1,
+      "repostsCount": 0,
+      "likedBy": [
+        "user_2",
+        "user_4"
+      ],
+      "bookmarkedBy": []
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment_1",
+      "postId": "post_1",
+      "authorId": "user_2",
+      "content": "The flush perimeter between the concrete foundation and the water reflection is incredible Elena. How did you detail the drainage overflow?",
+      "createdAt": "2026-10-10T09:30:23.352Z",
+      "likesCount": 2,
+      "likedBy": [
+        "user_1",
+        "user_3"
+      ]
+    },
+    {
+      "id": "comment_2",
+      "postId": "post_1",
+      "authorId": "user_1",
+      "content": "Hidden stainless steel slot drains beneath the granite perimeter tiles! Kept all mechanical fixtures invisible.",
+      "createdAt": "2026-10-10T09:40:23.352Z",
+      "likesCount": 1,
+      "likedBy": [
+        "user_2"
+      ]
+    },
+    {
+      "id": "comment_3",
+      "postId": "post_1",
+      "authorId": "user_3",
+      "content": "The natural lighting and proportion in this frame is pure tranquility. Would love to photograph the physical build when completed!",
+      "createdAt": "2026-10-10T09:50:23.352Z",
+      "likesCount": 1,
+      "likedBy": [
+        "user_1"
+      ]
+    },
+    {
+      "id": "comment_4",
+      "postId": "post_2",
+      "authorId": "user_1",
+      "content": "That speckled ceramic mug is lovely! What grinder settings are you using for the Yirgacheffe?",
+      "createdAt": "2026-10-10T08:05:23.352Z",
+      "likesCount": 1,
+      "likedBy": [
+        "user_2"
+      ]
+    },
+    {
+      "id": "comment_5",
+      "postId": "post_2",
+      "authorId": "user_2",
+      "content": "Medium-fine on a Comandante C40 at 24 clicks. Keeps the floral brightness while extracting full sweetness.",
+      "createdAt": "2026-10-10T08:35:23.352Z",
+      "likesCount": 1,
+      "likedBy": [
+        "user_1"
+      ]
+    },
+    {
+      "id": "comment_6",
+      "postId": "post_3",
+      "authorId": "user_1",
+      "content": "The color harmony between the warm vermilion signage and cool rainy asphalt is breathtaking Maya.",
+      "createdAt": "2026-10-10T05:05:23.352Z",
+      "likesCount": 1,
+      "likedBy": [
+        "user_3"
+      ]
+    },
+    {
+      "id": "comment_7",
+      "postId": "post_3",
+      "authorId": "user_4",
+      "content": "Recognize this cozy spot near Shinjuku! Nothing beats late night ramen when it rains in Tokyo.",
+      "createdAt": "2026-10-10T05:55:23.352Z",
+      "likesCount": 2,
+      "likedBy": [
+        "user_2",
+        "user_3"
+      ]
+    },
+    {
+      "id": "comment_8",
+      "postId": "post_4",
+      "authorId": "user_4",
+      "content": "Moody coastal scenes have such unmatched cinematic weight. Oregon coast?",
+      "createdAt": "2026-10-09T16:05:23.352Z",
+      "likesCount": 1,
+      "likedBy": [
+        "user_3"
+      ]
+    },
+    {
+      "id": "comment_9",
+      "postId": "post_5",
+      "authorId": "user_2",
+      "content": "Less code = less surface area for bugs. The hardest part is having the discipline to delete what took hours to write initially!",
+      "createdAt": "2026-10-09T09:05:23.352Z",
+      "likesCount": 2,
+      "likedBy": [
+        "user_1",
+        "user_4"
+      ]
+    },
+    {
+      "id": "comment_10",
+      "postId": "post_6",
+      "authorId": "user_3",
+      "content": "Could not agree more. Simplicity is an ongoing subtraction until only the essential remains.",
+      "createdAt": "2026-10-08T18:05:23.352Z",
+      "likesCount": 1,
+      "likedBy": [
+        "user_1"
+      ]
+    }
+  ],
+  "follows": [
+    {
+      "followerId": "user_1",
+      "followingId": "user_3",
+      "createdAt": "2024-03-12T11:00:00Z"
+    },
+    {
+      "followerId": "user_2",
+      "followingId": "user_1",
+      "createdAt": "2024-03-10T12:00:00Z"
+    },
+    {
+      "followerId": "user_2",
+      "followingId": "user_3",
+      "createdAt": "2024-03-14T14:00:00Z"
+    },
+    {
+      "followerId": "user_2",
+      "followingId": "user_4",
+      "createdAt": "2024-03-15T09:00:00Z"
+    },
+    {
+      "followerId": "user_3",
+      "followingId": "user_1",
+      "createdAt": "2024-04-02T16:00:00Z"
+    },
+    {
+      "followerId": "user_3",
+      "followingId": "user_2",
+      "createdAt": "2024-04-03T18:00:00Z"
+    },
+    {
+      "followerId": "user_4",
+      "followingId": "user_1",
+      "createdAt": "2024-03-20T08:00:00Z"
+    },
+    {
+      "followerId": "user_4",
+      "followingId": "user_2",
+      "createdAt": "2024-03-22T08:30:00Z"
+    },
+    {
+      "followerId": "user_1",
+      "followingId": "user_2",
+      "createdAt": "2026-10-10T10:08:04.288Z"
+    }
+  ]
+}
